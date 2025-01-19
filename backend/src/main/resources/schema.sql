@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    sex VARCHAR(10) NOT NULL,
+    course VARCHAR(50) NOT NULL,
+    department VARCHAR(100) NOT NULL
+);
+
